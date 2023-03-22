@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chess endgame dqn"
+version = "0.1.0"
+description = ""
+authors = ["Atakan Tekparmak"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.24.2"
+python-chess = "^1.999"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
