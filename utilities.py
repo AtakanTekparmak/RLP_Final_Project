@@ -54,19 +54,3 @@ def numpy_to_board(board_array):
             fen += '/'
     fen += ' w - - 0 1'
     return chess.Board(fen)
-   
-
-
-def test_board_to_numpy():
-    board = load_fen('static/endgame1.fen')
-    print(board)
-    board_array = board_to_numpy(board)
-    board_from_array = numpy_to_board(board_array)
-    print(board_from_array)
-
-
-def main():
-    test_board_to_numpy()
-
-if __name__ == '__main__':
-    main()
