@@ -1,0 +1,7 @@
+# Poetry stuff
+.venv
+poetry.lock
+
+# Python stuff
+*.pyc
+pycache
